@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediCare – Healthcare & Online Pharmacy (Tricentis Tosca Automation Testing)</title>
+    <!-- Tailwind CSS CDN with offline fallback -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind = window.tailwind || {};
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0284c7',
+                        secondary: '#0d9488',
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Primary Application CSS -->
+    <link rel="stylesheet" href="/styles.css">
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🩺</text></svg>">
+</head>
+<body class="bg-slate-50 min-h-screen text-slate-800 flex flex-col">
+    <!-- Top Tricentis Tosca Target Indicator Bar -->
+    <aside class="tosca-debug-bar" id="tosca-banner" aria-label="Tosca Automation Status">
+        <div class="flex items-center gap-2">
+            <span class="font-bold">🎯 Tricentis Tosca Test Automation Ready:</span>
+            <span>All DOM selectors, inputs, IDs, tables, and buttons are prepared for Tosca XScan.</span>
+        </div>
+        <div class="flex items-center gap-3">
+            <span class="tosca-pill">Course: STQA Mini-Project</span>
+            <span class="tosca-pill">Tool: Tricentis Tosca</span>
+        </div>
+    </aside>
+
+    <!-- Main Dynamic Application Container -->
+    <div id="app-root">
+        <!-- Loading State Placeholder -->
+        <div class="flex items-center justify-center min-h-[60vh]">
+            <div class="text-center">
+                <div class="w-12 h-12 border-4 border-sky-600 border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
+                <h2 class="text-xl font-bold text-slate-800">Initializing MediCare...</h2>
+                <p class="text-slate-500 text-sm">Loading pharmaceutical inventory and clinical modules...</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Application Script -->
+    <script src="/app.js"></script>
+</body>
+</html>

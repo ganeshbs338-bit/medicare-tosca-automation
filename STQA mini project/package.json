@@ -1,0 +1,30 @@
+{
+  "name": "medicare-tosca-automation",
+  "version": "1.0.0",
+  "description": "Healthcare & Online Pharmacy – End-to-End Web Application Automation Using Tricentis Tosca",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "init-db": "node database/init_db.js",
+    "test:whitebox": "node -e \"const { calculateDiscount } = require('./white_box_testing/discount_calculator'); console.log('Testing Basis Paths:', calculateDiscount(1000, true, 'MEDICARE5'));\""
+  },
+  "keywords": [
+    "tricentis-tosca",
+    "tosca-automation",
+    "healthcare",
+    "pharmacy",
+    "software-testing",
+    "quality-assurance",
+    "ecp",
+    "bva",
+    "white-box-testing"
+  ],
+  "author": "MediCare STQA Academic Team",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "sqlite3": "^5.1.7"
+  }
+}

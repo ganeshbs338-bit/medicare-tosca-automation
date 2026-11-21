@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="grad_ZINCOVIT" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#e2e8f0" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#grad_ZINCOVIT)" rx="16" />
+  <rect x="30" y="25" width="340" height="250" rx="12" fill="white" stroke="#cbd5e1" stroke-width="1.5" />
+  
+  <!-- Medical Header Bar -->
+  <path d="M 30 37 Q 30 25 42 25 L 358 25 Q 370 25 370 37 L 370 75 L 30 75 Z" fill="#b45309" />
+  <text x="50" y="55" font-family="Segoe UI, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="white" letter-spacing="1">MEDICARE PHARMACEUTICALS</text>
+  <circle cx="345" cy="50" r="14" fill="white" fill-opacity="0.25" />
+  <text x="340" y="55" font-family="Segoe UI, sans-serif" font-size="16" font-weight="bold" fill="white">+</text>
+  
+  <!-- Capsule Graphic -->
+  <g transform="translate(200, 150)">
+    <rect x="-70" y="-35" width="140" height="70" rx="35" fill="#f8fafc" stroke="#b45309" stroke-width="4" />
+    <path d="M -70 0 C -70 -19.33 -54.33 -35 -35 -35 L 0 -35 L 0 35 L -35 35 C -54.33 35 -70 19.33 -70 0 Z" fill="#b45309" />
+    <circle cx="-25" cy="0" r="6" fill="white" fill-opacity="0.8" />
+    <text x="18" y="7" font-family="Segoe UI, sans-serif" font-size="16" font-weight="bold" fill="#b45309">Rx</text>
+  </g>
+  
+  <!-- Medicine Label Info -->
+  <text x="200" y="235" text-anchor="middle" font-family="Segoe UI, -apple-system, sans-serif" font-size="16" font-weight="bold" fill="#0f172a">Zincovit Tablets</text>
+  <text x="200" y="258" text-anchor="middle" font-family="Segoe UI, -apple-system, sans-serif" font-size="13" font-weight="500" fill="#64748b">Formula / Minerals</text>
+</svg>
